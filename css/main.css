@@ -26,3 +26,17 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:nth-child(1) {
+  left: 20%;
+  top: 6em;
+  transform: rotate(-13deg);
+  z-index: 1;
+}
+
+.polaroid:nth-child(2) {
+  left: 30%;
+  top: 9em;
+  transform: rotate(9deg);
+  z-index: 3;
+}
